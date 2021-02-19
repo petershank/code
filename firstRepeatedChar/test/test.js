@@ -13,6 +13,8 @@ describe("firstRepeatedChar", function () {
     assert.strictEqual(firstRepeatedChar("xaa"), "a");
     assert.strictEqual(firstRepeatedChar("xaab"), "a");
     assert.strictEqual(firstRepeatedChar("abc"), null);
+    assert.strictEqual(firstRepeatedChar("a"), null);
+    assert.strictEqual(firstRepeatedChar(""), null);
     
   });
 });
