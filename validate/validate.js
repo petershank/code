@@ -7,7 +7,7 @@ const validate = {
     if (trueTypeOf(obj) === "string") {
       return true;
     } else {
-      throw new TypeError("Expected a string");
+      throw new TypeError(`expected a string, but got a ${trueTypeOf(obj)}`);
     }
   },
   isNumber: function (obj) {
