@@ -1,0 +1,14 @@
+{
+  "name": "firstrepeatedchar",
+  "version": "1.0.0",
+  "description": "a javascript function to return the first repeated character in a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "peter@shank.com",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "validate",
+  "version": "1.0.0",
+  "description": "a validation library in javascript",
+  "main": "validate.js",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "peter@shank.com",
+  "license": "MIT"
+}

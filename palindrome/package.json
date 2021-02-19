@@ -1,0 +1,14 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "string palindrome checker in javascript",
+  "main": "palindrome.js",
+  "scripts": {
+    "test": "eckkk
+  },
+  "author": "peter@shank.com",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}
