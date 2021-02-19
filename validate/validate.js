@@ -4,7 +4,11 @@ const trueTypeOf = require("./trueTypeOf");
 
 const validate = {
   isString: function (obj) {
-    return trueTypeOf(obj) === "string";
+    if (trueTypeOf(obj) === "string") {
+      return true;
+    } else {
+      throw new TypeError("Expected a string");
+    }
   },
   isNumber: function (obj) {
     return trueTypeOf(obj) === "number";
